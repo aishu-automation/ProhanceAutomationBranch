@@ -1,0 +1,55 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite  name="MultipleSuite" thread-count="7">
+		<listeners>
+		<listener class-name="test.Listeners"></listener>
+	</listeners>
+	
+ <test thread-count="7" name="Test">
+    <classes>
+      <!--
+      <class name="test.Users.UsersEmailExportForPdf"/>
+      <class name="test.Users.UsersDefineTenureRangeWithMissingFields"/>
+      <class name="test.Users.UsersEmailExportWithMissingRecipients"/>
+      <class name="test.Users.UsersLicenceReportForPDF"/>
+      
+      <class name="test.Users.UsersReportColumn"/>
+      <class name="test.Users.UsersLicenseReport"/>
+      
+      -->
+      <class name="test.Users.UsersAddingNew"/>
+      <class name="test.Users.UsersAttributesForActiveUsers"/>
+      <class name="test.Users.UsersAttributesForInactiveUsers"/>
+      <class name="test.Users.UsersLoggedinUsersByClientVersion"/>
+      <class name="test.Users.UsersLoggedinUsersByClientMode"/>
+      <class name="test.Users.UsersLoggedinUsersByDotNetVersion"/>
+      <class name="test.Users.UsersLoggedinUsersByActivity"/>
+      <class name="test.Users.UsersLoggedinUsersByTrayMemory"/>
+      <class name="test.Users.UsersLoggedinUsersByHeartbeat"/>
+      <class name="test.Users.UsersLoggedinUsersBytrayCPU"/>
+      <class name="test.Users.UsersLoggedinUsersByOperatingSystem"/>
+      <class name="test.Users.UsersLoggedinUsersByServiceMemory"/>
+      <class name="test.Users.UsersLoggedinUsersByOSflavour"/>
+      <class name="test.Users.UsersLoggedinUsersByProxy"/>
+      <class name="test.Users.UsersLoggedinUsersByServiceCPU"/>
+      <!--<class name="test.Users.UsersDefineTenureRangeAdd"/>
+      <class name="test.Users.UsersPDFValidation"/>
+     
+      <class name="test.Users.UsersBulkUploadForAllUsersWithMissingFileds"/>
+       <class name="test.Users.UsersBulkUploadForActiveUsers"/>
+      <class name="test.Users.UsersExcelValidation"/>
+      <class name="test.Users.UsersEmailexportWithMissingReportViewBy"/>
+      <class name="test.Users.UsersEmailExportClose"/>
+     
+      <class name="test.Users.UsersEmailExportForExcel"/>
+      <class name="test.Users.UsersBulkUploadForActiveUsersWithMissingFields"/>
+      <class name="test.Users.UsersBulkUploadForAllUsers"/>
+      
+      <class name="test.Users.UsersDeleteWithDependency"/>
+      <class name="test.Users.UsersEmailExportWithMoreRecipients"/>
+      <class name="test.Users.UsersBulkUploadForInactiveUsers"/>
+      <class name="test.Users.UsersBulkUploadForInactiveUsersWithMissingFields"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

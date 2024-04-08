@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MultipleSuite" class="navigator-link">
+              <span class="suite-name border-passed">MultipleSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MultipleSuite" class="navigator-link ">
+                    <span>D:\git\Prohance-Automation-main\Prohance-Automation-main\demoTest\users.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MultipleSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MultipleSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MultipleSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MultipleSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MultipleSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MultipleSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MultipleSuite" class="hide-methods passed suite-MultipleSuite"> (hide)</a> <!-- hide-methods passed suite-MultipleSuite -->
+                      <a href="#" panel-name="suite-MultipleSuite" class="show-methods passed suite-MultipleSuite"> (show)</a> <!-- show-methods passed suite-MultipleSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MultipleSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersAddingNew" class="method navigator-link" hash-for-method="addNewUsers">addNewUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersAttributesForActiveUsers" class="method navigator-link" hash-for-method="usersAttributesForInactiveUsers">usersAttributesForInactiveUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersAttributesForInactiveUsers" class="method navigator-link" hash-for-method="usersAttributesForInactiveUsers">usersAttributesForInactiveUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByClientMode" class="method navigator-link" hash-for-method="usersLoggedinUsersByClientMode">usersLoggedinUsersByClientMode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByClientVersion" class="method navigator-link" hash-for-method="usersLoggedinUsersByClientVersion">usersLoggedinUsersByClientVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByDotNetVersion" class="method navigator-link" hash-for-method="usersLoggedinUsersByDotNetVersion">usersLoggedinUsersByDotNetVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByActivity" class="method navigator-link" hash-for-method="usersLoggedinUsersByHeartbeat">usersLoggedinUsersByHeartbeat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByHeartbeat" class="method navigator-link" hash-for-method="usersLoggedinUsersByHeartbeat">usersLoggedinUsersByHeartbeat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByOSflavour" class="method navigator-link" hash-for-method="usersLoggedinUsersByOSflavour">usersLoggedinUsersByOSflavour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByOperatingSystem" class="method navigator-link" hash-for-method="usersLoggedinUsersByOperatingSystem">usersLoggedinUsersByOperatingSystem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByProxy" class="method navigator-link" hash-for-method="usersLoggedinUsersByProxy">usersLoggedinUsersByProxy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByServiceCPU" class="method navigator-link" hash-for-method="usersLoggedinUsersByServiceCPU">usersLoggedinUsersByServiceCPU</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByServiceMemory" class="method navigator-link" hash-for-method="usersLoggedinUsersByServiceMemory">usersLoggedinUsersByServiceMemory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersBytrayCPU" class="method navigator-link" hash-for-method="usersLoggedinUsersByTrayCPU">usersLoggedinUsersByTrayCPU</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MultipleSuite" title="test.Users.UsersLoggedinUsersByTrayMemory" class="method navigator-link" hash-for-method="usersLoggedinUsersByTrayMemory">usersLoggedinUsersByTrayMemory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MultipleSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MultipleSuite" class="panel MultipleSuite">
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersAddingNew</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUsers">
+                  </a> <!-- addNewUsers -->
+                  <span class="method-name">addNewUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByProxy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByProxy">
+                  </a> <!-- usersLoggedinUsersByProxy -->
+                  <span class="method-name">usersLoggedinUsersByProxy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByOSflavour</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByOSflavour">
+                  </a> <!-- usersLoggedinUsersByOSflavour -->
+                  <span class="method-name">usersLoggedinUsersByOSflavour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByDotNetVersion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByDotNetVersion">
+                  </a> <!-- usersLoggedinUsersByDotNetVersion -->
+                  <span class="method-name">usersLoggedinUsersByDotNetVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByClientMode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByClientMode">
+                  </a> <!-- usersLoggedinUsersByClientMode -->
+                  <span class="method-name">usersLoggedinUsersByClientMode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersAttributesForInactiveUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersAttributesForInactiveUsers">
+                  </a> <!-- usersAttributesForInactiveUsers -->
+                  <span class="method-name">usersAttributesForInactiveUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByOperatingSystem</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByOperatingSystem">
+                  </a> <!-- usersLoggedinUsersByOperatingSystem -->
+                  <span class="method-name">usersLoggedinUsersByOperatingSystem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByServiceCPU</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByServiceCPU">
+                  </a> <!-- usersLoggedinUsersByServiceCPU -->
+                  <span class="method-name">usersLoggedinUsersByServiceCPU</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByClientVersion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByClientVersion">
+                  </a> <!-- usersLoggedinUsersByClientVersion -->
+                  <span class="method-name">usersLoggedinUsersByClientVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByHeartbeat</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByHeartbeat">
+                  </a> <!-- usersLoggedinUsersByHeartbeat -->
+                  <span class="method-name">usersLoggedinUsersByHeartbeat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersAttributesForActiveUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersAttributesForInactiveUsers">
+                  </a> <!-- usersAttributesForInactiveUsers -->
+                  <span class="method-name">usersAttributesForInactiveUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersBytrayCPU</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByTrayCPU">
+                  </a> <!-- usersLoggedinUsersByTrayCPU -->
+                  <span class="method-name">usersLoggedinUsersByTrayCPU</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByServiceMemory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByServiceMemory">
+                  </a> <!-- usersLoggedinUsersByServiceMemory -->
+                  <span class="method-name">usersLoggedinUsersByServiceMemory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByTrayMemory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByTrayMemory">
+                  </a> <!-- usersLoggedinUsersByTrayMemory -->
+                  <span class="method-name">usersLoggedinUsersByTrayMemory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+          <div class="suite-MultipleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Users.UsersLoggedinUsersByActivity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usersLoggedinUsersByHeartbeat">
+                  </a> <!-- usersLoggedinUsersByHeartbeat -->
+                  <span class="method-name">usersLoggedinUsersByHeartbeat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultipleSuite-class-passed -->
+        </div> <!-- panel MultipleSuite -->
+        <div panel-name="test-xml-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\git\Prohance-Automation-main\Prohance-Automation-main\demoTest\users.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;7&quot; name=&quot;MultipleSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;test.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;7&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Users.UsersAddingNew&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersAttributesForActiveUsers&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersAttributesForInactiveUsers&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByClientVersion&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByClientMode&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByDotNetVersion&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByActivity&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByTrayMemory&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByHeartbeat&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersBytrayCPU&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByOperatingSystem&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByServiceMemory&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByOSflavour&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByProxy&quot;/&gt;
+      &lt;class name=&quot;test.Users.UsersLoggedinUsersByServiceCPU&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- MultipleSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MultipleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MultipleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MultipleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MultipleSuite');
+function tableData_MultipleSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addNewUsers')
+data.setCell(0, 2, 'test.Users.UsersAddingNew')
+data.setCell(0, 3, 27063);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'usersLoggedinUsersByHeartbeat')
+data.setCell(1, 2, 'test.Users.UsersLoggedinUsersByActivity')
+data.setCell(1, 3, 20479);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'usersAttributesForInactiveUsers')
+data.setCell(2, 2, 'test.Users.UsersAttributesForActiveUsers')
+data.setCell(2, 3, 12924);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'usersAttributesForInactiveUsers')
+data.setCell(3, 2, 'test.Users.UsersAttributesForInactiveUsers')
+data.setCell(3, 3, 12854);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'usersLoggedinUsersByProxy')
+data.setCell(4, 2, 'test.Users.UsersLoggedinUsersByProxy')
+data.setCell(4, 3, 11250);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'usersLoggedinUsersByOperatingSystem')
+data.setCell(5, 2, 'test.Users.UsersLoggedinUsersByOperatingSystem')
+data.setCell(5, 3, 11173);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'usersLoggedinUsersByClientVersion')
+data.setCell(6, 2, 'test.Users.UsersLoggedinUsersByClientVersion')
+data.setCell(6, 3, 10039);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'usersLoggedinUsersByClientMode')
+data.setCell(7, 2, 'test.Users.UsersLoggedinUsersByClientMode')
+data.setCell(7, 3, 9885);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'usersLoggedinUsersByHeartbeat')
+data.setCell(8, 2, 'test.Users.UsersLoggedinUsersByHeartbeat')
+data.setCell(8, 3, 9678);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'usersLoggedinUsersByTrayCPU')
+data.setCell(9, 2, 'test.Users.UsersLoggedinUsersBytrayCPU')
+data.setCell(9, 3, 9416);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'usersLoggedinUsersByTrayMemory')
+data.setCell(10, 2, 'test.Users.UsersLoggedinUsersByTrayMemory')
+data.setCell(10, 3, 9381);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'usersLoggedinUsersByDotNetVersion')
+data.setCell(11, 2, 'test.Users.UsersLoggedinUsersByDotNetVersion')
+data.setCell(11, 3, 9348);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'usersLoggedinUsersByServiceMemory')
+data.setCell(12, 2, 'test.Users.UsersLoggedinUsersByServiceMemory')
+data.setCell(12, 3, 9313);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'usersLoggedinUsersByServiceCPU')
+data.setCell(13, 2, 'test.Users.UsersLoggedinUsersByServiceCPU')
+data.setCell(13, 3, 9238);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'usersLoggedinUsersByOSflavour')
+data.setCell(14, 2, 'test.Users.UsersLoggedinUsersByOSflavour')
+data.setCell(14, 3, 9233);
+window.suiteTableData['MultipleSuite']= { tableData: data, tableDiv: 'times-div-MultipleSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-MultipleSuite">
+              </div> <!-- times-div-MultipleSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MultipleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">14 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByProxy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByOSflavour</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByDotNetVersion</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByClientMode</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersAttributesForInactiveUsers</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByOperatingSystem</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByServiceCPU</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByClientVersion</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByHeartbeat</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersAttributesForActiveUsers</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersBytrayCPU</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByServiceMemory</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByTrayMemory</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.Users.UsersLoggedinUsersByActivity</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MultipleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersAddingNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addNewUsers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersAttributesForActiveUsers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersAttributesForInactiveUsers</span>
+                <span class="method-start">27077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersAttributesForInactiveUsers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersAttributesForInactiveUsers</span>
+                <span class="method-start">40003 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByClientVersion</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByClientVersion</span>
+                <span class="method-start">52862 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByClientMode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByClientMode</span>
+                <span class="method-start">62903 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByDotNetVersion</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByDotNetVersion</span>
+                <span class="method-start">72794 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByActivity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByHeartbeat</span>
+                <span class="method-start">82144 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByTrayMemory</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByTrayMemory</span>
+                <span class="method-start">102630 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByHeartbeat</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByHeartbeat</span>
+                <span class="method-start">112014 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersBytrayCPU</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByTrayCPU</span>
+                <span class="method-start">121695 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByOperatingSystem</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByOperatingSystem</span>
+                <span class="method-start">131114 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByServiceMemory</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByServiceMemory</span>
+                <span class="method-start">142289 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByOSflavour</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByOSflavour</span>
+                <span class="method-start">151605 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByProxy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByProxy</span>
+                <span class="method-start">160841 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersLoggedinUsersByServiceCPU</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usersLoggedinUsersByServiceCPU</span>
+                <span class="method-start">172097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Users.UsersAddingNew</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">181339 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

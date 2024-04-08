@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="29" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T11:17:31 IST" name="MultipleSuite" finished-at="2024-04-08T11:20:32 IST" duration-ms="181392">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T11:17:31 IST" name="Test" finished-at="2024-04-08T11:20:32 IST" duration-ms="181392">
+      <class name="test.Users.UsersLoggedinUsersByOSflavour">
+        <test-method signature="usersLoggedinUsersByOSflavour()[pri:0, instance:test.Users.UsersLoggedinUsersByOSflavour@102efc59]" started-at="2024-04-08T11:20:02 IST" name="usersLoggedinUsersByOSflavour" finished-at="2024-04-08T11:20:12 IST" duration-ms="9233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByOSflavour -->
+      </class> <!-- test.Users.UsersLoggedinUsersByOSflavour -->
+      <class name="test.Users.UsersLoggedinUsersBytrayCPU">
+        <test-method signature="usersLoggedinUsersByTrayCPU()[pri:0, instance:test.Users.UsersLoggedinUsersBytrayCPU@2ab0702e]" started-at="2024-04-08T11:19:32 IST" name="usersLoggedinUsersByTrayCPU" finished-at="2024-04-08T11:19:42 IST" duration-ms="9416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByTrayCPU -->
+      </class> <!-- test.Users.UsersLoggedinUsersBytrayCPU -->
+      <class name="test.Users.UsersAttributesForInactiveUsers">
+        <test-method signature="usersAttributesForInactiveUsers()[pri:0, instance:test.Users.UsersAttributesForInactiveUsers@56913163]" started-at="2024-04-08T11:18:11 IST" name="usersAttributesForInactiveUsers" finished-at="2024-04-08T11:18:24 IST" duration-ms="12854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersAttributesForInactiveUsers -->
+      </class> <!-- test.Users.UsersAttributesForInactiveUsers -->
+      <class name="test.Users.UsersLoggedinUsersByProxy">
+        <test-method signature="usersLoggedinUsersByProxy()[pri:0, instance:test.Users.UsersLoggedinUsersByProxy@3936df72]" started-at="2024-04-08T11:20:12 IST" name="usersLoggedinUsersByProxy" finished-at="2024-04-08T11:20:23 IST" duration-ms="11250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByProxy -->
+      </class> <!-- test.Users.UsersLoggedinUsersByProxy -->
+      <class name="test.Users.UsersLoggedinUsersByClientVersion">
+        <test-method signature="usersLoggedinUsersByClientVersion()[pri:0, instance:test.Users.UsersLoggedinUsersByClientVersion@702b06fb]" started-at="2024-04-08T11:18:24 IST" name="usersLoggedinUsersByClientVersion" finished-at="2024-04-08T11:18:34 IST" duration-ms="10039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByClientVersion -->
+      </class> <!-- test.Users.UsersLoggedinUsersByClientVersion -->
+      <class name="test.Users.UsersAttributesForActiveUsers">
+        <test-method signature="usersAttributesForInactiveUsers()[pri:0, instance:test.Users.UsersAttributesForActiveUsers@57402ba1]" started-at="2024-04-08T11:17:58 IST" name="usersAttributesForInactiveUsers" finished-at="2024-04-08T11:18:11 IST" duration-ms="12924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersAttributesForInactiveUsers -->
+      </class> <!-- test.Users.UsersAttributesForActiveUsers -->
+      <class name="test.Users.UsersLoggedinUsersByDotNetVersion">
+        <test-method signature="usersLoggedinUsersByDotNetVersion()[pri:0, instance:test.Users.UsersLoggedinUsersByDotNetVersion@5c534b5b]" started-at="2024-04-08T11:18:44 IST" name="usersLoggedinUsersByDotNetVersion" finished-at="2024-04-08T11:18:53 IST" duration-ms="9348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByDotNetVersion -->
+      </class> <!-- test.Users.UsersLoggedinUsersByDotNetVersion -->
+      <class name="test.Users.UsersLoggedinUsersByOperatingSystem">
+        <test-method signature="usersLoggedinUsersByOperatingSystem()[pri:0, instance:test.Users.UsersLoggedinUsersByOperatingSystem@7158daf2]" started-at="2024-04-08T11:19:42 IST" name="usersLoggedinUsersByOperatingSystem" finished-at="2024-04-08T11:19:53 IST" duration-ms="11173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByOperatingSystem -->
+      </class> <!-- test.Users.UsersLoggedinUsersByOperatingSystem -->
+      <class name="test.Users.UsersLoggedinUsersByHeartbeat">
+        <test-method signature="usersLoggedinUsersByHeartbeat()[pri:0, instance:test.Users.UsersLoggedinUsersByHeartbeat@14229fa7]" started-at="2024-04-08T11:19:23 IST" name="usersLoggedinUsersByHeartbeat" finished-at="2024-04-08T11:19:32 IST" duration-ms="9678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByHeartbeat -->
+      </class> <!-- test.Users.UsersLoggedinUsersByHeartbeat -->
+      <class name="test.Users.UsersLoggedinUsersByClientMode">
+        <test-method signature="usersLoggedinUsersByClientMode()[pri:0, instance:test.Users.UsersLoggedinUsersByClientMode@a18649a]" started-at="2024-04-08T11:18:34 IST" name="usersLoggedinUsersByClientMode" finished-at="2024-04-08T11:18:44 IST" duration-ms="9885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByClientMode -->
+      </class> <!-- test.Users.UsersLoggedinUsersByClientMode -->
+      <class name="test.Users.UsersLoggedinUsersByServiceMemory">
+        <test-method signature="usersLoggedinUsersByServiceMemory()[pri:0, instance:test.Users.UsersLoggedinUsersByServiceMemory@10f19647]" started-at="2024-04-08T11:19:53 IST" name="usersLoggedinUsersByServiceMemory" finished-at="2024-04-08T11:20:02 IST" duration-ms="9313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByServiceMemory -->
+      </class> <!-- test.Users.UsersLoggedinUsersByServiceMemory -->
+      <class name="test.Users.UsersLoggedinUsersByServiceCPU">
+        <test-method signature="usersLoggedinUsersByServiceCPU()[pri:0, instance:test.Users.UsersLoggedinUsersByServiceCPU@e8e0dec]" started-at="2024-04-08T11:20:23 IST" name="usersLoggedinUsersByServiceCPU" finished-at="2024-04-08T11:20:32 IST" duration-ms="9238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByServiceCPU -->
+      </class> <!-- test.Users.UsersLoggedinUsersByServiceCPU -->
+      <class name="test.Users.UsersAddingNew">
+        <test-method signature="addNewUsers()[pri:0, instance:test.Users.UsersAddingNew@75361cf6]" started-at="2024-04-08T11:17:31 IST" name="addNewUsers" finished-at="2024-04-08T11:17:58 IST" duration-ms="27063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUsers -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Users.UsersAddingNew@75361cf6]" started-at="2024-04-08T11:20:32 IST" name="teardown" finished-at="2024-04-08T11:20:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.Users.UsersAddingNew -->
+      <class name="test.Users.UsersLoggedinUsersByTrayMemory">
+        <test-method signature="usersLoggedinUsersByTrayMemory()[pri:0, instance:test.Users.UsersLoggedinUsersByTrayMemory@2b22a1cc]" started-at="2024-04-08T11:19:13 IST" name="usersLoggedinUsersByTrayMemory" finished-at="2024-04-08T11:19:23 IST" duration-ms="9381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByTrayMemory -->
+      </class> <!-- test.Users.UsersLoggedinUsersByTrayMemory -->
+      <class name="test.Users.UsersLoggedinUsersByActivity">
+        <test-method signature="usersLoggedinUsersByHeartbeat()[pri:0, instance:test.Users.UsersLoggedinUsersByActivity@396639b]" started-at="2024-04-08T11:18:53 IST" name="usersLoggedinUsersByHeartbeat" finished-at="2024-04-08T11:19:13 IST" duration-ms="20479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersLoggedinUsersByHeartbeat -->
+      </class> <!-- test.Users.UsersLoggedinUsersByActivity -->
+    </test> <!-- Test -->
+  </suite> <!-- MultipleSuite -->
+</testng-results>

@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 08 11:17:31 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>181 seconds (181392 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByClientMode.usersLoggedinUsersByClientMode()'><b>usersLoggedinUsersByClientMode</b><br>Test class: test.Users.UsersLoggedinUsersByClientMode</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByClientMode@a18649a</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByActivity.usersLoggedinUsersByHeartbeat()'><b>usersLoggedinUsersByHeartbeat</b><br>Test class: test.Users.UsersLoggedinUsersByActivity</td>
+<td></td>
+<td>20</td>
+<td>test.Users.UsersLoggedinUsersByActivity@396639b</td></tr>
+<tr>
+<td title='test.Users.UsersAttributesForActiveUsers.usersAttributesForInactiveUsers()'><b>usersAttributesForInactiveUsers</b><br>Test class: test.Users.UsersAttributesForActiveUsers</td>
+<td></td>
+<td>12</td>
+<td>test.Users.UsersAttributesForActiveUsers@57402ba1</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByTrayMemory.usersLoggedinUsersByTrayMemory()'><b>usersLoggedinUsersByTrayMemory</b><br>Test class: test.Users.UsersLoggedinUsersByTrayMemory</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByTrayMemory@2b22a1cc</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByProxy.usersLoggedinUsersByProxy()'><b>usersLoggedinUsersByProxy</b><br>Test class: test.Users.UsersLoggedinUsersByProxy</td>
+<td></td>
+<td>11</td>
+<td>test.Users.UsersLoggedinUsersByProxy@3936df72</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByHeartbeat.usersLoggedinUsersByHeartbeat()'><b>usersLoggedinUsersByHeartbeat</b><br>Test class: test.Users.UsersLoggedinUsersByHeartbeat</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByHeartbeat@14229fa7</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByDotNetVersion.usersLoggedinUsersByDotNetVersion()'><b>usersLoggedinUsersByDotNetVersion</b><br>Test class: test.Users.UsersLoggedinUsersByDotNetVersion</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByDotNetVersion@5c534b5b</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByClientVersion.usersLoggedinUsersByClientVersion()'><b>usersLoggedinUsersByClientVersion</b><br>Test class: test.Users.UsersLoggedinUsersByClientVersion</td>
+<td></td>
+<td>10</td>
+<td>test.Users.UsersLoggedinUsersByClientVersion@702b06fb</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByServiceCPU.usersLoggedinUsersByServiceCPU()'><b>usersLoggedinUsersByServiceCPU</b><br>Test class: test.Users.UsersLoggedinUsersByServiceCPU</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByServiceCPU@e8e0dec</td></tr>
+<tr>
+<td title='test.Users.UsersAddingNew.addNewUsers()'><b>addNewUsers</b><br>Test class: test.Users.UsersAddingNew</td>
+<td></td>
+<td>27</td>
+<td>test.Users.UsersAddingNew@75361cf6</td></tr>
+<tr>
+<td title='test.Users.UsersAttributesForInactiveUsers.usersAttributesForInactiveUsers()'><b>usersAttributesForInactiveUsers</b><br>Test class: test.Users.UsersAttributesForInactiveUsers</td>
+<td></td>
+<td>12</td>
+<td>test.Users.UsersAttributesForInactiveUsers@56913163</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByOperatingSystem.usersLoggedinUsersByOperatingSystem()'><b>usersLoggedinUsersByOperatingSystem</b><br>Test class: test.Users.UsersLoggedinUsersByOperatingSystem</td>
+<td></td>
+<td>11</td>
+<td>test.Users.UsersLoggedinUsersByOperatingSystem@7158daf2</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByServiceMemory.usersLoggedinUsersByServiceMemory()'><b>usersLoggedinUsersByServiceMemory</b><br>Test class: test.Users.UsersLoggedinUsersByServiceMemory</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByServiceMemory@10f19647</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersByOSflavour.usersLoggedinUsersByOSflavour()'><b>usersLoggedinUsersByOSflavour</b><br>Test class: test.Users.UsersLoggedinUsersByOSflavour</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersByOSflavour@102efc59</td></tr>
+<tr>
+<td title='test.Users.UsersLoggedinUsersBytrayCPU.usersLoggedinUsersByTrayCPU()'><b>usersLoggedinUsersByTrayCPU</b><br>Test class: test.Users.UsersLoggedinUsersBytrayCPU</td>
+<td></td>
+<td>9</td>
+<td>test.Users.UsersLoggedinUsersBytrayCPU@2ab0702e</td></tr>
+</table><p>
+</body>
+</html>
